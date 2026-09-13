@@ -19,7 +19,7 @@ numero = n
 base_b = 0
 posicion = 1
 
-while n > 0:
+while n > 0: 
     residuo = n % b
     base_b = base_b + (residuo * posicion)
     posicion = posicion * 10

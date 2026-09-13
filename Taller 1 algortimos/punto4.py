@@ -15,7 +15,9 @@ posicion = 1
 
 while n > 0 :
     digito = n % 10
+   # print(digito)
     resultado = resultado + (digito * posicion)
+   # print(resultado)
     posicion = posicion * 100
     n = n // 10
 
