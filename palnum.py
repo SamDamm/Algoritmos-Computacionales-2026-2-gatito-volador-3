@@ -1,5 +1,5 @@
 entrada = input("Que frase quiere contare?: ")
-salida = ""
+salida = " "
 palabras = entrada.split(" ")
 cantidad = len(palabras)
 longitud = len(entrada)
